@@ -1,0 +1,26 @@
+{
+  "name": "oss-python-backend",
+  "displayName": "OSS Python Backend & Services",
+  "version": "1.0.0",
+  "description": "Modern Python async microservices, HTTP APIs, database ORMs, caching, data validation, and automated testing.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-python-backend",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "python",
+    "async",
+    "aiohttp",
+    "httpx",
+    "sqlalchemy",
+    "celery",
+    "redis",
+    "pytest",
+    "ast-grep"
+  ],
+  "skills": "./skills/"
+}

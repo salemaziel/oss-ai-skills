@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-django-stack",
+  "description": "Full-stack Django web development: core ORM, admin theming, REST APIs, HTMX, Celery background tasks, Redis, and pytest."
+}

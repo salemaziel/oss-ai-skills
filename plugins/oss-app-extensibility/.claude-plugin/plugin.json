@@ -1,0 +1,25 @@
+{
+  "name": "oss-app-extensibility",
+  "displayName": "OSS Desktop App Extensibility & Modding",
+  "version": "1.0.0",
+  "description": "Scripting and extending open-source desktop software: GIMP 3.0+ Python plugins, Kate editor C++ plugins, OpenRCT2 game mods, and OpenCode tools.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-app-extensibility",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "plugin",
+    "extensibility",
+    "gimp",
+    "kate",
+    "openrct2",
+    "opencode",
+    "modding",
+    "gegl"
+  ],
+  "skills": "./skills/"
+}

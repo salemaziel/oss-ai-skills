@@ -1,0 +1,41 @@
+{
+  "name": "oss-django-stack",
+  "version": "1.0.0",
+  "description": "Full-stack Django web development: core ORM, admin theming, REST APIs, HTMX, Celery background tasks, Redis, and pytest.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-django-stack",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "django",
+    "python",
+    "orm",
+    "htmx",
+    "celery",
+    "redis",
+    "rest-api",
+    "pytest",
+    "tailwind"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS Django Full-Stack Suite",
+    "shortDescription": "Full-stack Django development toolkit",
+    "longDescription": "Full-stack Django web development: core ORM, admin theming, REST APIs, HTMX, Celery background tasks, Redis, and pytest.",
+    "developerName": "salemaziel",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-django-stack",
+    "defaultPrompt": [
+      "Use oss-django-stack to build a high-performance REST API with Django Ninja.",
+      "Use oss-django-stack to optimize database transactions and queries.",
+      "Use oss-django-stack to configure Celery task queues with Redis."
+    ]
+  }
+}

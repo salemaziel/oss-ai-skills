@@ -8,6 +8,67 @@ A comprehensive collection of AI assistant skills (SKILL.md files) following the
 
 This repository provides reusable skill definitions that can be loaded into AI coding assistants. Each skill encapsulates domain knowledge, best practices, and workflows for specific tasks in open-source development.
 
+---
+
+## 🧩 Native Multi-Agent Plugins (Claude Code, Codex CLI & Antigravity)
+
+This repository functions as a **GitHub-hosted multi-agent plugin marketplace** under [`salemaziel/oss-ai-skills`](https://github.com/salemaziel/oss-ai-skills).
+Skills are organized into **10 domain-specific bundles** in `plugins/`. Each plugin is self-contained and natively compatible across:
+- 🟣 **Claude Code** (`.claude-plugin/plugin.json` + `.claude-plugin/marketplace.json`)
+- 🟢 **OpenAI Codex CLI** (`.codex-plugin/plugin.json` + `.agents/plugins/marketplace.json`)
+- 🔵 **Google Antigravity CLI (`agy`)** (`plugin.json` matching official schema)
+
+### 📦 Available Plugin Bundles
+
+| Plugin | Skills | Description | Quick Install (Claude Code) |
+|---|---|---|---|
+| [`oss-django-stack`](plugins/oss-django-stack) | 18 | Full-stack Django: ORM, Unfold admin, REST APIs (Ninja/TurboDRF/Bolt), HTMX + Tailwind, Celery+Redis, pytest | `claude plugin install oss-django-stack@oss-ai-skills` |
+| [`oss-python-backend`](plugins/oss-python-backend) | 8 | Async microservices, HTTP APIs (aiohttp/httpx), SQLAlchemy 2.0 ORM, Celery, Redis, Pydantic, pytest | `claude plugin install oss-python-backend@oss-ai-skills` |
+| [`oss-qt-desktop`](plugins/oss-qt-desktop) | 12 | Qt desktop GUI engineering in Python & C++, KDE Plasma 6 widgets, Kate plugins, multimedia, threading | `claude plugin install oss-qt-desktop@oss-ai-skills` |
+| [`oss-rust-stack`](plugins/oss-rust-stack) | 3 | Systems programming in Rust 1.80+, interactive terminal UIs with Ratatui, and AST code refactoring | `claude plugin install oss-rust-stack@oss-ai-skills` |
+| [`oss-web-frontend-testing`](plugins/oss-web-frontend-testing) | 4 | Tailwind CSS v4 styling, Playwright visual regression testing, HTMX reactive UI, and AST search | `claude plugin install oss-web-frontend-testing@oss-ai-skills` |
+| [`oss-browser-extensions`](plugins/oss-browser-extensions) | 3 | Firefox WebExtensions (MV2/MV3, AMO), Thunderbird MailExtensions (messenger.*, ATN), Playwright QA | `claude plugin install oss-browser-extensions@oss-ai-skills` |
+| [`oss-game-dev-emulation`](plugins/oss-game-dev-emulation) | 4 | 2D game dev with pygame, GBA Lua game engine, mGBA emulator automation, and OpenRCT2 modding | `claude plugin install oss-game-dev-emulation@oss-ai-skills` |
+| [`oss-ai-agent-dev`](plugins/oss-ai-agent-dev) | 4 | Autonomous agents, LlamaIndex RAG pipelines, OpenCode agent architecture & lifecycle, Pydantic schemas | `claude plugin install oss-ai-agent-dev@oss-ai-skills` |
+| [`oss-linux-desktop-tools`](plugins/oss-linux-desktop-tools) | 3 | Linux desktop power tools: Waydroid Android container, KDE Plasma 6 desktop widgets, local Redis | `claude plugin install oss-linux-desktop-tools@oss-ai-skills` |
+| [`oss-app-extensibility`](plugins/oss-app-extensibility) | 4 | Desktop app scripting: GIMP 3.0+ Python plugins, Kate C++ plugins, OpenRCT2 mods, OpenCode tools | `claude plugin install oss-app-extensibility@oss-ai-skills` |
+
+### 🚀 Marketplace Installation
+
+#### 1. Claude Code
+```bash
+# Register the marketplace from GitHub
+claude plugin marketplace add https://github.com/salemaziel/oss-ai-skills
+
+# Install individual plugins
+claude plugin install oss-django-stack@oss-ai-skills
+claude plugin install oss-rust-stack@oss-ai-skills
+```
+
+#### 2. OpenAI Codex CLI
+```bash
+# Register the marketplace from GitHub
+codex plugin marketplace add https://github.com/salemaziel/oss-ai-skills.git
+
+# Install individual plugins
+codex plugin add oss-django-stack@oss-ai-skills
+codex plugin add oss-python-backend@oss-ai-skills
+```
+
+#### 3. Google Antigravity CLI (`agy`)
+```bash
+# Install via CLI command
+agy plugin install ./plugins/oss-django-stack
+
+# Or in an interactive Antigravity session
+/plugin install ./plugins/oss-django-stack
+
+# Or link all 10 plugins globally
+./install.sh link-all
+```
+
+---
+
 ## Available Skills
 
 ### Extend

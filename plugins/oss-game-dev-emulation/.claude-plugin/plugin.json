@@ -1,0 +1,25 @@
+{
+  "name": "oss-game-dev-emulation",
+  "displayName": "OSS Game Dev & Modding",
+  "version": "1.0.0",
+  "description": "2D game development in Python (pygame), GBA Lua game engine, mGBA emulator automation, and OpenRCT2 modding.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-game-dev-emulation",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "game-development",
+    "pygame",
+    "gba",
+    "mgba",
+    "lua",
+    "emulator",
+    "openrct2",
+    "modding"
+  ],
+  "skills": "./skills/"
+}

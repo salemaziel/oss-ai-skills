@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-ai-agent-dev",
+  "description": "AI agent engineering, RAG pipelines with LlamaIndex, OpenCode agent plugin architecture, and structured schema validation."
+}

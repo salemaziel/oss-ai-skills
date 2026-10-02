@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-web-frontend-testing",
+  "description": "Web UI engineering with Tailwind CSS v4, visual regression testing with Playwright, dynamic reactive server UI with HTMX, and AST linting."
+}

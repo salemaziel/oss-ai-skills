@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-app-extensibility",
+  "description": "Scripting and extending open-source desktop software: GIMP 3.0+ Python plugins, Kate editor C++ plugins, OpenRCT2 game mods, and OpenCode tools."
+}

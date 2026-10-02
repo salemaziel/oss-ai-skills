@@ -1,0 +1,24 @@
+{
+  "name": "oss-browser-extensions",
+  "displayName": "OSS Mozilla Browser & Mail Extensions",
+  "version": "1.0.0",
+  "description": "Browser and mail extension development for Firefox WebExtensions and Thunderbird MailExtensions with E2E visual regression testing.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-browser-extensions",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "firefox",
+    "webextension",
+    "thunderbird",
+    "mailextension",
+    "mozilla",
+    "playwright",
+    "browser"
+  ],
+  "skills": "./skills/"
+}

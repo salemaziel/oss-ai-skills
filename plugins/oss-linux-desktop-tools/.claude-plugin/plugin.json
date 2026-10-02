@@ -1,0 +1,25 @@
+{
+  "name": "oss-linux-desktop-tools",
+  "displayName": "OSS Linux Desktop & System Tools",
+  "version": "1.0.0",
+  "description": "Linux desktop utilities, Waydroid Android container integration, KDE Plasma 6 desktop widgets, and local Redis caching.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-linux-desktop-tools",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "linux",
+    "waydroid",
+    "android",
+    "container",
+    "kde",
+    "plasma",
+    "redis",
+    "desktop"
+  ],
+  "skills": "./skills/"
+}

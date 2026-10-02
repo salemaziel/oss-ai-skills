@@ -1,0 +1,148 @@
+{
+  "name": "oss-ai-skills",
+  "interface": {
+    "displayName": "OSS AI Skills Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "oss-django-stack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-django-stack",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-python-backend",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-python-backend",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-qt-desktop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-qt-desktop",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-rust-stack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-rust-stack",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-web-frontend-testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-web-frontend-testing",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-browser-extensions",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-browser-extensions",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-game-dev-emulation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-game-dev-emulation",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "oss-ai-agent-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-ai-agent-dev",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Automation"
+    },
+    {
+      "name": "oss-linux-desktop-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-linux-desktop-tools",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "System"
+    },
+    {
+      "name": "oss-app-extensibility",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/salemaziel/oss-ai-skills.git",
+        "path": "./plugins/oss-app-extensibility",
+        "ref": "master"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

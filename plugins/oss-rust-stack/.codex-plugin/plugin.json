@@ -1,0 +1,40 @@
+{
+  "name": "oss-rust-stack",
+  "version": "1.0.0",
+  "description": "Idiomatic Rust systems engineering, high-performance terminal user interfaces with Ratatui, and structural AST code refactoring.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-rust-stack",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "rust",
+    "systems",
+    "tui",
+    "ratatui",
+    "cli",
+    "ast-grep",
+    "async",
+    "performance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS Rust Systems & TUI",
+    "shortDescription": "Rust systems and terminal UI development toolkit",
+    "longDescription": "Idiomatic Rust systems engineering, high-performance terminal user interfaces with Ratatui, and structural AST code refactoring.",
+    "developerName": "salemaziel",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-rust-stack",
+    "defaultPrompt": [
+      "Use oss-rust-stack to build an interactive terminal UI with Ratatui.",
+      "Use oss-rust-stack to refactor Rust async code for maximum performance.",
+      "Use oss-rust-stack to perform AST pattern search and rewriting."
+    ]
+  }
+}

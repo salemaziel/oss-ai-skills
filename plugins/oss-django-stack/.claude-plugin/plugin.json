@@ -1,0 +1,26 @@
+{
+  "name": "oss-django-stack",
+  "displayName": "OSS Django Full-Stack Suite",
+  "version": "1.0.0",
+  "description": "Full-stack Django web development: core ORM, admin theming, REST APIs, HTMX, Celery background tasks, Redis, and pytest.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-django-stack",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "django",
+    "python",
+    "orm",
+    "htmx",
+    "celery",
+    "redis",
+    "rest-api",
+    "pytest",
+    "tailwind"
+  ],
+  "skills": "./skills/"
+}

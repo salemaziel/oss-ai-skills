@@ -1,0 +1,27 @@
+{
+  "name": "oss-qt-desktop",
+  "displayName": "OSS Qt Desktop & GUI Suite",
+  "version": "1.0.0",
+  "description": "Cross-platform GUI development with Qt in Python (PyQt6/PySide6) and C++, plus KDE Plasma widgets and Kate editor extensions.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-qt-desktop",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "qt",
+    "pyqt",
+    "pyside",
+    "gui",
+    "desktop",
+    "c++",
+    "cmake",
+    "kde",
+    "plasma",
+    "widgets"
+  ],
+  "skills": "./skills/"
+}

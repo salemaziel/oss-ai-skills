@@ -1,0 +1,39 @@
+{
+  "name": "oss-web-frontend-testing",
+  "version": "1.0.0",
+  "description": "Web UI engineering with Tailwind CSS v4, visual regression testing with Playwright, dynamic reactive server UI with HTMX, and AST linting.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-web-frontend-testing",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "tailwind",
+    "css",
+    "playwright",
+    "visual-regression",
+    "htmx",
+    "testing",
+    "ast-grep"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS Web Frontend & Visual QA",
+    "shortDescription": "Frontend styling and Playwright visual QA toolkit",
+    "longDescription": "Web UI engineering with Tailwind CSS v4, visual regression testing with Playwright, dynamic reactive server UI with HTMX, and AST linting.",
+    "developerName": "salemaziel",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-web-frontend-testing",
+    "defaultPrompt": [
+      "Use oss-web-frontend-testing to style modern UI components with Tailwind CSS v4.",
+      "Use oss-web-frontend-testing to set up Playwright visual regression tests with toHaveScreenshot.",
+      "Use oss-web-frontend-testing to implement dynamic partial swapping with HTMX."
+    ]
+  }
+}

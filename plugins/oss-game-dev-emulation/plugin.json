@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-game-dev-emulation",
+  "description": "2D game development in Python (pygame), GBA Lua game engine, mGBA emulator automation, and OpenRCT2 modding."
+}

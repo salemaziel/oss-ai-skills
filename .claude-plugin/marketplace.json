@@ -1,0 +1,71 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "oss-ai-skills",
+  "description": "Open Source AI Skills — domain-bundled plugins for Claude Code, Codex CLI, and Antigravity.",
+  "owner": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "oss-django-stack",
+      "source": "./plugins/oss-django-stack",
+      "description": "Full-stack Django web development: core ORM, admin theming, REST APIs, HTMX, Celery background tasks, Redis, and pytest.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-python-backend",
+      "source": "./plugins/oss-python-backend",
+      "description": "Modern Python async microservices, HTTP APIs, database ORMs, caching, data validation, and automated testing.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-qt-desktop",
+      "source": "./plugins/oss-qt-desktop",
+      "description": "Cross-platform GUI development with Qt in Python (PyQt6/PySide6) and C++, plus KDE Plasma widgets and Kate editor extensions.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-rust-stack",
+      "source": "./plugins/oss-rust-stack",
+      "description": "Idiomatic Rust systems engineering, high-performance terminal user interfaces with Ratatui, and structural AST code refactoring.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-web-frontend-testing",
+      "source": "./plugins/oss-web-frontend-testing",
+      "description": "Web UI engineering with Tailwind CSS v4, visual regression testing with Playwright, dynamic reactive server UI with HTMX, and AST linting.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-browser-extensions",
+      "source": "./plugins/oss-browser-extensions",
+      "description": "Browser and mail extension development for Firefox WebExtensions and Thunderbird MailExtensions with E2E visual regression testing.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-game-dev-emulation",
+      "source": "./plugins/oss-game-dev-emulation",
+      "description": "2D game development in Python (pygame), GBA Lua game engine, mGBA emulator automation, and OpenRCT2 modding.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-ai-agent-dev",
+      "source": "./plugins/oss-ai-agent-dev",
+      "description": "AI agent engineering, RAG pipelines with LlamaIndex, OpenCode agent plugin architecture, and structured schema validation.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-linux-desktop-tools",
+      "source": "./plugins/oss-linux-desktop-tools",
+      "description": "Linux desktop utilities, Waydroid Android container integration, KDE Plasma 6 desktop widgets, and local Redis caching.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "oss-app-extensibility",
+      "source": "./plugins/oss-app-extensibility",
+      "description": "Scripting and extending open-source desktop software: GIMP 3.0+ Python plugins, Kate editor C++ plugins, OpenRCT2 game mods, and OpenCode tools.",
+      "version": "1.0.0"
+    }
+  ]
+}

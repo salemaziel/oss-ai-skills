@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-linux-desktop-tools",
+  "description": "Linux desktop utilities, Waydroid Android container integration, KDE Plasma 6 desktop widgets, and local Redis caching."
+}

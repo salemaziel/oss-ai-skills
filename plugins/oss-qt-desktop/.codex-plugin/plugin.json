@@ -1,0 +1,42 @@
+{
+  "name": "oss-qt-desktop",
+  "version": "1.0.0",
+  "description": "Cross-platform GUI development with Qt in Python (PyQt6/PySide6) and C++, plus KDE Plasma widgets and Kate editor extensions.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-qt-desktop",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "qt",
+    "pyqt",
+    "pyside",
+    "gui",
+    "desktop",
+    "c++",
+    "cmake",
+    "kde",
+    "plasma",
+    "widgets"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS Qt Desktop & GUI Suite",
+    "shortDescription": "Qt and PyQt desktop application development toolkit",
+    "longDescription": "Cross-platform GUI development with Qt in Python (PyQt6/PySide6) and C++, plus KDE Plasma widgets and Kate editor extensions.",
+    "developerName": "salemaziel",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-qt-desktop",
+    "defaultPrompt": [
+      "Use oss-qt-desktop to build a desktop GUI application using PyQt6 widgets and QSS styling.",
+      "Use oss-qt-desktop to manage worker threads with QThread and QThreadPool.",
+      "Use oss-qt-desktop to develop a KDE Plasma 6 widget or Kate plugin."
+    ]
+  }
+}

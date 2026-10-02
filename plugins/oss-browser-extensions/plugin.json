@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "oss-browser-extensions",
+  "description": "Browser and mail extension development for Firefox WebExtensions and Thunderbird MailExtensions with E2E visual regression testing."
+}

@@ -1,0 +1,40 @@
+{
+  "name": "oss-ai-agent-dev",
+  "version": "1.0.0",
+  "description": "AI agent engineering, RAG pipelines with LlamaIndex, OpenCode agent plugin architecture, and structured schema validation.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-ai-agent-dev",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "ai",
+    "agent",
+    "rag",
+    "llamaindex",
+    "opencode",
+    "pydantic",
+    "httpx",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS AI Agent & RAG Engineering",
+    "shortDescription": "Autonomous AI agent and RAG architecture toolkit",
+    "longDescription": "AI agent engineering, RAG pipelines with LlamaIndex, OpenCode agent plugin architecture, and structured schema validation.",
+    "developerName": "salemaziel",
+    "category": "Automation",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-ai-agent-dev",
+    "defaultPrompt": [
+      "Use oss-ai-agent-dev to implement a LlamaIndex RAG retrieval pipeline with custom nodes.",
+      "Use oss-ai-agent-dev to author an OpenCode v1 subagent tool plugin with MCP support.",
+      "Use oss-ai-agent-dev to define type-safe agent schemas with Pydantic v2."
+    ]
+  }
+}

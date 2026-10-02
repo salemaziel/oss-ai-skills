@@ -1,0 +1,40 @@
+{
+  "name": "oss-linux-desktop-tools",
+  "version": "1.0.0",
+  "description": "Linux desktop utilities, Waydroid Android container integration, KDE Plasma 6 desktop widgets, and local Redis caching.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-linux-desktop-tools",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "linux",
+    "waydroid",
+    "android",
+    "container",
+    "kde",
+    "plasma",
+    "redis",
+    "desktop"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS Linux Desktop & System Tools",
+    "shortDescription": "Linux desktop and system utilities toolkit",
+    "longDescription": "Linux desktop utilities, Waydroid Android container integration, KDE Plasma 6 desktop widgets, and local Redis caching.",
+    "developerName": "salemaziel",
+    "category": "System",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-linux-desktop-tools",
+    "defaultPrompt": [
+      "Use oss-linux-desktop-tools to set up and troubleshoot Waydroid on Linux with GPU acceleration.",
+      "Use oss-linux-desktop-tools to build a KDE Plasma 6 widget with Python backend.",
+      "Use oss-linux-desktop-tools to configure local Redis for desktop caching and IPC."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "oss-ai-agent-dev",
+  "displayName": "OSS AI Agent & RAG Engineering",
+  "version": "1.0.0",
+  "description": "AI agent engineering, RAG pipelines with LlamaIndex, OpenCode agent plugin architecture, and structured schema validation.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-ai-agent-dev",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "ai",
+    "agent",
+    "rag",
+    "llamaindex",
+    "opencode",
+    "pydantic",
+    "httpx",
+    "mcp"
+  ],
+  "skills": "./skills/"
+}

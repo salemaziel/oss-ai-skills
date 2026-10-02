@@ -1,0 +1,24 @@
+{
+  "name": "oss-web-frontend-testing",
+  "displayName": "OSS Web Frontend & Visual QA",
+  "version": "1.0.0",
+  "description": "Web UI engineering with Tailwind CSS v4, visual regression testing with Playwright, dynamic reactive server UI with HTMX, and AST linting.",
+  "author": {
+    "name": "salemaziel",
+    "email": "mymainemail0501@gmail.com",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/oss-ai-skills/tree/master/plugins/oss-web-frontend-testing",
+  "repository": "https://github.com/salemaziel/oss-ai-skills",
+  "license": "GPL-3.0",
+  "keywords": [
+    "tailwind",
+    "css",
+    "playwright",
+    "visual-regression",
+    "htmx",
+    "testing",
+    "ast-grep"
+  ],
+  "skills": "./skills/"
+}
