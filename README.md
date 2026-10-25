@@ -71,6 +71,9 @@ agy plugin install ./plugins/oss-django-stack
 
 ## Available Skills
 
+> [!NOTE]
+> **Line Counts & Context Budget**: Every entry `SKILL.md` strictly adheres to the agent specification limit of **≤ 600 lines** for immediate context loading. For multi-file skills, line counts indicate the entry `SKILL.md` size with the total on-demand package corpus (`references/` and `rules/`) in parentheses.
+
 ### Extend
 
 | Skill | Description | Lines | Tags |
@@ -92,7 +95,7 @@ agy plugin install ./plugins/oss-django-stack
 | [aiohttp](frameworks/aiohttp/SKILL.md) | Use when building Python async HTTP services or clients with aiohttp - web server routing, middleware, WebSocket, SSE, streaming, client sessions, pytest-aiohttp testing, or troubleshooting SSL and timeout issues | 1,297 | python, http, async, server, websocket, sse |
 | [BPCore Engine](frameworks/bpcore-engine/SKILL.md) | Use when building GBA games with the BPCore Lua engine - entity, sprite and tilemap functions, SRAM save and load, link cable multiplayer protocol, camera and scrolling, or optimization patterns | 886 | lua, gba, game-engine, gameboy-advance |
 | [Celery](frameworks/celery/SKILL.md) | Use when running background tasks with Celery - worker and broker configuration (Redis, RabbitMQ, SQS), task definitions, chains and chords, Celery Beat periodic tasks, routing, retries, Flower monitoring, or testing tasks with pytest | 1,337 | python, task-queue, async, distributed, celery |
-| [Django](frameworks/django/SKILL.md) | Use when building Django applications - security hardening, authentication and permissions, ORM optimization, PostgreSQL features, Django 6.0, migrations, testing, and ecosystem libraries | 2,598 | python, django, web-framework, async, hub |
+| [Django](frameworks/django/SKILL.md) | Use when building Django applications - security hardening, authentication and permissions, ORM optimization, PostgreSQL features, Django 6.0, migrations, testing, and ecosystem libraries | 206 (2,732 pkg) | python, django, web-framework, async, hub |
 |   ↳ [django-admin](frameworks/django-admin/SKILL.md) | Use when customizing Django Admin - save_formset, get_search_results, formsets, queryset optimization, db_index, custom URLs | 582 | python, django, admin, orm, optimization |
 |   ↳ [django-transaction](frameworks/django-transaction/SKILL.md) | Use when handling Django transactions and concurrency - atomic, select_for_update, on_commit, upserts, M2M ordering | 471 | python, django, transactions, concurrency, orm |
 | [Django Bolt](frameworks/django-bolt/SKILL.md) | Use when building high-performance APIs with django-bolt - routing, JWT auth, msgspec serializers, WebSockets, SSE streaming, file uploads, ORM patterns, runbolt deployment, or migrating from DRF | 2,258 | python, django, bolt, api, rust, performance, async |
@@ -118,7 +121,7 @@ agy plugin install ./plugins/oss-django-stack
 |   ↳ [pyqt-widgets](frameworks/pyqt/widgets/SKILL.md) | Use when building PyQt/PySide6 UIs with QtWidgets - display, input and container widgets, buttons, item views like QListWidget and QTableWidget, layout management, or event handling (mouse/keyboard events, event filters, shortcuts) | 759 | python, qt, pyqt, widgets, gui |
 | [pytest](frameworks/pytest/SKILL.md) | Use when writing Python tests with pytest - fixtures, parametrization, markers, conftest layout, pytest-asyncio, pytest-django, coverage with pytest-cov, mocking with pytest-mock, parallel runs with xdist, or CI integration | 1,531 | python, testing, tdd, fixtures, unit-test |
 | [Qt C++](frameworks/qt-cpp/SKILL.md) | Use when developing desktop applications with Qt in C++ - CMake setup, signals and slots, QThread and QtConcurrent, QML integration, model/view programming, Qt5 to Qt6 migration, or windeployqt/macdeployqt/linuxdeployqt deployment | 1,219 | qt, c++, gui, desktop, qt6, cmake, cross-platform, qml |
-| [ratatui](frameworks/ratatui/SKILL.md) | Use when building terminal user interfaces in Rust with the ratatui crate - layout system, widget usage, input/event handling, app state architecture, TUI testing, or migrating between ratatui 0.29 and 0.30 | 1,835 | rust, tui, terminal, cli, user-interface, ecosystem |
+| [ratatui](frameworks/ratatui/SKILL.md) | Use when building terminal user interfaces in Rust with the ratatui crate - layout system, widget usage, input/event handling, app state architecture, TUI testing, or migrating between ratatui 0.29 and 0.30 | 365 (1,835 pkg) | rust, tui, terminal, cli, user-interface, ecosystem |
 | [SQLAlchemy](frameworks/sqlalchemy/SKILL.md) | Use when working with SQLAlchemy 2.0 in Python - declarative models and relationships, queries and sessions, async engines with FastAPI, Alembic migrations, bulk operations, PostgreSQL query optimization, or debugging detached instances and N+1 queries | 1,821 | python, orm, database, sql, alembic, async |
 | [Tailwind CSS](frameworks/tailwind/SKILL.md) | Use when styling with Tailwind CSS v4 - @theme directive and design tokens, custom utilities and variants, dark mode, the Oxide engine, arbitrary values, framework integration, or migrating from v3 | 1,056 | css, frontend, responsive, design-system, utility-first |
 | [TurboDRF](frameworks/turbodrf/SKILL.md) | Use when building Django REST APIs with TurboDRF - model Meta configuration, role-based and field-level permissions, multi-tenant predicates, router wiring, management commands, settings, or troubleshooting | 917 | python, django, rest-api, turbodrf, permissions |
@@ -135,7 +138,7 @@ agy plugin install ./plugins/oss-django-stack
 
 | Skill | Description | Lines | Tags |
 |-------|-------------|-------|------|
-| [Rust Core](languages/rust-core/SKILL.md) | Use when writing, reviewing, or refactoring Rust code - ownership and borrowing, error handling, async patterns, API design, memory optimization, performance tuning, testing, or common anti-patterns (Rust 1.80+, Edition 2024) | 26,803 | rust, core, ownership, error-handling, async, performance, testing |
+| [Rust Core](languages/rust-core/SKILL.md) | Use when writing, reviewing, or refactoring Rust code - ownership and borrowing, error handling, async patterns, API design, memory optimization, performance tuning, testing, or common anti-patterns (Rust 1.80+, Edition 2024) | 442 (26,803 pkg) | rust, core, ownership, error-handling, async, performance, testing |
 
 ## Skill Format
 

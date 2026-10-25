@@ -179,18 +179,18 @@ See [references/widgets.md](references/widgets.md) for detailed widget recipes.
 
 | Widget | When to Use | Reference |
 |--------|-------------|-----------|
-| Paragraph | Text display with styling/wrapping | [widgets.md#paragraph](references/widgets.md#paragraph) |
-| Block | Framing and titling other widgets | [widgets.md#block](references/widgets.md#block) |
-| Button | Clickable buttons with pressed state | [widgets.md#button](references/widgets.md#button) |
-| Checkbox | Boolean toggle with custom symbols | [widgets.md#checkbox](references/widgets.md#checkbox) |
-| List | Selectable item lists | [widgets.md#list](references/widgets.md#list) |
-| Table | Tabular data with column selection | [widgets.md#table](references/widgets.md#table) |
-| Gauge | Progress percentage display | [widgets.md#gauge](references/widgets.md#gauge) |
-| Sparkline | Compact data visualization | [widgets.md#sparkline](references/widgets.md#sparkline) |
-| Chart | Multi-dataset plots with axes | [widgets.md#chart](references/widgets.md#chart) |
-| Canvas | Custom drawing with markers | [widgets.md#canvas](references/widgets.md#canvas) |
-| Calendar | Date display with Chrono | [widgets.md#calendar](references/widgets.md#calendar) |
-| Fill | Paint area with symbol | [widgets.md#fill](references/widgets.md#fill) |
+| Paragraph | Text display with styling/wrapping | [widgets.md (Paragraph)](references/widgets.md) |
+| Block | Framing and titling other widgets | [widgets.md (Block)](references/widgets.md) |
+| Button | Clickable buttons with pressed state | [widgets.md (Button)](references/widgets.md) |
+| Checkbox | Boolean toggle with custom symbols | [widgets.md (Checkbox)](references/widgets.md) |
+| List | Selectable item lists | [widgets.md (List)](references/widgets.md) |
+| Table | Tabular data with column selection | [widgets.md (Table)](references/widgets.md) |
+| Gauge | Progress percentage display | [widgets.md (Gauge)](references/widgets.md) |
+| Sparkline | Compact data visualization | [widgets.md (Sparkline)](references/widgets.md) |
+| Chart | Multi-dataset plots with axes | [widgets.md (Chart)](references/widgets.md) |
+| Canvas | Custom drawing with markers | [widgets.md (Canvas)](references/widgets.md) |
+| Calendar | Date display with Chrono | [widgets.md (Calendar)](references/widgets.md) |
+| Fill | Paint area with symbol | [widgets.md (Fill)](references/widgets.md) |
 
 ## Input Handling
 

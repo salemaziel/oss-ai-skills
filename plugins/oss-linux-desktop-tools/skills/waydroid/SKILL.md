@@ -63,11 +63,11 @@ When something doesn't work, follow this symptom → check order:
 
 | Symptom | Check | Depth |
 |---------|-------|--------|
-| App won't install | Verify image ABI: `waydroid shell getprop ro.product.cpu.abi` — x86_64 vs arm64-v8a mismatch requires different image | [references/gpu-networking.md](references/gpu-networking.md#images) |
-| No network in Android | `ip addr show waydroid0` — interface should exist; `waydroid shell ping google.com` — tests DNS | [references/gpu-networking.md](references/gpu-networking.md#networking) |
-| Audio not working | `waydroid shell media list-sinks` — verify audio sinks; try `waydroid prop set audio.oss 1` | [references/desktop-troubleshooting.md](references/desktop-troubleshooting.md#common-issues) |
-| No hardware acceleration | `waydroid shell dumpsys SurfaceFlinger` — check GPU renderer; verify `virgl` support | [references/gpu-networking.md](references/gpu-networking.md#gpu-support) |
-| Container won't start | `lsmod | grep binder` — binder module loaded?; `waydroid log` — check init errors | [references/desktop-troubleshooting.md](references/desktop-troubleshooting.md#common-issues) |
+| App won't install | Verify image ABI: `waydroid shell getprop ro.product.cpu.abi` — x86_64 vs arm64-v8a mismatch requires different image | [references/gpu-networking.md](references/gpu-networking.md) |
+| No network in Android | `ip addr show waydroid0` — interface should exist; `waydroid shell ping google.com` — tests DNS | [references/gpu-networking.md](references/gpu-networking.md) |
+| Audio not working | `waydroid shell media list-sinks` — verify audio sinks; try `waydroid prop set audio.oss 1` | [references/desktop-troubleshooting.md](references/desktop-troubleshooting.md) |
+| No hardware acceleration | `waydroid shell dumpsys SurfaceFlinger` — check GPU renderer; verify `virgl` support | [references/gpu-networking.md](references/gpu-networking.md) |
+| Container won't start | `lsmod | grep binder` — binder module loaded?; `waydroid log` — check init errors | [references/desktop-troubleshooting.md](references/desktop-troubleshooting.md) |
 
 > **Most common fix**: `sudo systemctl restart waydroid-container.service && waydroid session stop && waydroid session start`
 
